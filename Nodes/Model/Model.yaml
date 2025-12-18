@@ -1,2 +1,17 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- Name: 아날로그변수1
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Type: BaseDataVariableType
+      DataType: Double
